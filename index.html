@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>RIAA Team (Web developers)</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
-<!-- contact_us section -->
-<section>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <h1>Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+  <section class="team" id="team" display="inline-block">
+<div class="israa" id="israa">
+  <h1>Israa Moqbel</h1>
+  <img class="img-responsive" src="img/israa.JPG" alt="israa-image">
+  <h3>Web Developer</h3>
+</div>
+
+<div class="razan" id="razan">
+  <h1>Razan Abo Tawaheena</h1>
+  <img class="img-responsive" src="img/razan.jpg" alt="razan-image">
+  <h3>Web Developer</h3>
+</div>
+
+<div class="abdallah" id="abdallah">
+  <h1>Abdallah Azmi</h1>
+  <img class="img-responsive" src="img/abdallah.jpg" alt="abdallah-image">
+  <h3>Web Developer</h3>
+</div>
+
+<div class="ahmad" id="ahmad">
+  <h1>Ahmad shatat</h1>
+  <img class="img-responsive" src="img/ahmad.jpeg" alt="ahmad-image">
+  <h3>Web Developer</h3>
+</div>
+</section>
+  
+  <section>
   <form action="/">
     <label for="name">Name</label>
     <input type="text" id="name">
@@ -18,5 +57,10 @@
     <textarea name="message" rows="8" cols="80" id="message">Enter your message here please...</textarea>
   </form>
 </section>
+    <footer>
+        <p>
+            Made By &#10084;	
+        </p>
+    </footer>
 </body>
 </html>
