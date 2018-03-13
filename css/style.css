@@ -1,0 +1,36 @@
+body{
+margin:0;
+pandding:0;
+font-family:  "Gill Sans",Arial, sans-serif;
+
+}
+.about h2,p{
+  color: #color: #00ff00;
+  text-align: center;
+}
+.about h2{
+  font-style: italic;
+  font-weight: bold;
+
+}
+.about p{
+  line-height: 1.5;
+  font-size: 1rem;
+
+}
+
+ .about h2 {
+color: blue;
+font-family: verdana;
+font-size: 300%;
+
+}
+.about p  {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
+
+.about p {
+  border: 1px solid #000;
+}
