@@ -76,6 +76,8 @@ span {
 footer p {
     color: #fff;
     font-size: 1.4em;
+    text-align: center;
+    padding: 30px 0;
 }
 footer {
     background: rgb(34, 34, 34);
@@ -88,7 +90,7 @@ background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg
   text-align: center;
   }
 
-.about h2,p ,  .team-section .team-h{
+.about h2,.about p ,  .team-section .team-h{
   color:  #00ff00;
   text-align: center;
   padding: 50px 0;
@@ -134,6 +136,9 @@ margin: 0 ;
 font-family:'purisa';
 font-size: 18px;
 font-weight: bold;
+}
+.team h2 ,.team h3 {
+    text-align:center;margin-bottom: -15px; margin-top: -12px;
 }
 .img {
 width: 300px;
