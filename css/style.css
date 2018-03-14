@@ -18,7 +18,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('../img/598.jpg') ;
+    background-image:/* linear-gradient(rgba(250, 34, 176, 0.33),rgba(114, 255, 102, 0.7)) ,*/ url('../img/598.jpg') ;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -32,12 +32,11 @@ header {
 header h1 {
 text-align: center;
 font-family: 'Oswald', sans-serif;
-color: aliceblue;
-}
-nav {
+color:rgb(162, 10, 60);
+}nav {
     position: absolute;
     bottom: 0;
-    background: linear-gradient(#67e2a9,#0be881);
+    background-color: rgb(235, 99, 188);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -49,7 +48,7 @@ ul {
 }
 a:link,
 a:visited {
-    color: #813f70;
+    color: #06053e;
     text-decoration: none;
 }
 a:hover,
