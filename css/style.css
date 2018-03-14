@@ -9,7 +9,8 @@ body{
 /* font-family:  "Gill Sans",Arial, sans-serif; */
 font-family: 'Oswald', sans-serif;
     background: #fdf6dc;
-
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
@@ -18,7 +19,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('../img/598.jpg') ;
+    background-image:/* linear-gradient(rgba(250, 34, 176, 0.33),rgba(114, 255, 102, 0.7)) ,*/ url('../img/598.jpg') ;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -32,12 +33,11 @@ header {
 header h1 {
 text-align: center;
 font-family: 'Oswald', sans-serif;
-color: aliceblue;
-}
-nav {
+color:rgb(162, 10, 60);
+}nav {
     position: absolute;
     bottom: 0;
-    background: linear-gradient(#67e2a9,#0be881);
+    background-color: rgb(235, 99, 188);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -49,7 +49,7 @@ ul {
 }
 a:link,
 a:visited {
-    color: #813f70;
+    color: #06053e;
     text-decoration: none;
 }
 a:hover,
@@ -90,30 +90,35 @@ background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg
 .about h2,p ,  .team-section .team-h{
   color:  #00ff00;
   text-align: center;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
 
 }
+
 .about h2 ,  .team-section .team-h {
 font-family: 'Oswald', sans-serif;
   font-size: 60px;
 text-align: center;
   line-height: 10px;
   color:rgb(145, 35, 124);
-    padding: 40px 0;
+ padding: 40px 0;
 }
-.about h2::after {
+.about h2 {
+  padding: 100px 0 0 0;
+}
+.about h2::after , .team-h::after  {
     display: block;
     height: 6px;
     background-color: 		#C71585;
     content: " ";
-    width: 130px;
+    width: 175px;
     margin: 0 auto;
-    margin-top: 50px;
+  /*  margin-top: 50px;*/
+   margin-top: 45px ;
 }
 
 .about p{
-
-  padding-bottom: 20px;
+    padding-top: 0;
+  padding-bottom: 0px;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
   color: 		#8B0000;
@@ -130,7 +135,6 @@ display: flex;
 flex-direction: row;
 width: 90%;
 margin: 0 ;
-margin-left: 10%;
 font-family:'purisa';
 font-size: 18px;
 font-weight: bold;
@@ -143,23 +147,12 @@ border-radius: 200px;
 background: rgba(255, 255, 255, .4);
 box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
-.team .israa {
-  margin-right: 60px;
-  margin-left: 30px;
+.team .team-block {
+    margin-right: 50px;
+    margin-left: 20px;
 }
-.team .razan {
-  margin-right: 60px;
-  margin-left: 30px;
-}
-.team .ahmad {
-  margin-right: 60px;
-  margin-left: 30px;
-}
-.team .abdallah {
-  margin-right: 60px;
-  margin-left: 30px;
-}
-.abdallah .img {
+
+#abdallah .img {
 transform: rotate(90deg);
 }
 @media screen and (max-width: 600px){
