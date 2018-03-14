@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
+  <!--
     <header>
         <img src="img/logo.png" alt="logo">
         <h1>Header</h1>
@@ -56,20 +55,28 @@
   <h3>Web Developer</h3>
 </div>
 </section>
-  
-  <section>
-  <form action="/">
-    <label for="name">Name</label>
-    <input type="text" id="name">
-    <label for="email">Email</label>
-    <input type="email" id="email">
-    <label for="message">Message</label>
-    <textarea name="message" rows="8" cols="80" id="message">Enter your message here please...</textarea>
+-->
+  <section class="contact_us">
+  <h2>Contact Us</h2>
+  <form action="#">
+    <div class="info">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+    </div>
+    <div class="info">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="message">
+      <label for="message">Message</label>
+      <textarea placeholder="your message goes here" name="message" rows="8" cols="80" id="message" required></textarea>
+    </div>
+    <input class="submit" type="submit">
   </form>
 </section>
     <footer>
         <p>
-            Made By &#10084;	
+            Made with &#10084;
         </p>
     </footer>
 </body>
