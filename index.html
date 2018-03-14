@@ -14,11 +14,15 @@
     <title>RIAA Team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 </head>
 <body>
+
+<!-- Start Header Section -->
     <header>
-        <img src="img/logo.png" alt="logo">
-        <h1>Header</h1>
+        <img src="img/logo.png" alt="logo" class="logo">
+        <h1>Team your web development choice</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -28,58 +32,80 @@
             </ul>
         </nav>
     </header>
+    <!-- End About Section -->
+
+    <!-- Start About Section -->
   <section class="about">
-<div class="overlay">
-      <h2>Front End</h2>
-      <h2>Trainees</h2>
+
+     <h2> About Us</h2>
       <p>
         Hello, everyone! we're learning programming because we like it and
         we think it's a good career for us due circumstances in tragic Gaza. At first
          we started as front end begginers and we intend to develop ourselves to learn
           more about programming in general and to become Full Stack Web Developers.
         </p>
-      </div>
-    </section>
-  <section class="team" id="team" display="inline-block" style="text-align:center;">
-<div class="israa" id="israa">
-  <img class="img" src="img/israa.JPG" alt="israa-image">
-  <h1 style="text-align:center;margin-bottom: -15px; margin-top: -12px;">Israa Moqbel</h1>
-  <h3 style="text-align:center;">Web Developer</h3>
-</div>
 
-<div class="razan" id="razan">
+    </section>
+    <!-- End About Section -->
+
+<!-- Start Team Section -->
+
+  <section class="team-section" id="team" >
+    <h2 class="team-h"> Team Members</h2>
+ <div class="team" id="team">
+  <div class="israa" id="israa">
+   <img class="img" src="img/israa.JPG" alt="israa-image">
+   <h1 style="text-align:center;margin-bottom: -15px; margin-top: -12px;">Israa Moqbel</h1>
+   <h3 style="text-align:center;">Web Developer</h3>
+  </div>
+
+  <div class="razan" id="razan">
   <img class="img" src="img/razan.jpg" alt="razan-image">
   <h1 style="text-align:center;margin-bottom: -15px;margin-top: -12px;">Razan Abo Tawaheena</h1>
   <h3 style="text-align:center;">Web Developer</h3>
 </div>
 
-<div class="abdallah" id="abdallah">
-  <img class="img" src="img/abdallah.jpg" alt="abdallah-image">
-  <h1 style="text-align:center;margin-bottom: -15px; margin-top: -12px;">Abdallah Azmi</h1>
-  <h3 style="text-align:center;">Web Developer</h3>
-</div>
-
-<div class="ahmad" id="ahmad">
+  <div class="ahmad" id="ahmad">
   <img class="img" src="img/ahmad.jpeg"alt="ahmad-image">
   <h1 style="text-align:center;margin-bottom: -15px; margin-top: -12px;">Ahmad shatat</h1>
   <h3 style="text-align:center;">Web Developer</h3>
 </div>
+<div class="abdallah" id="abdallah">
+<img class="img" src="img/abdallah.jpg"alt="abdallah-image">
+<h1 style="text-align:center;margin-bottom: -15px; margin-top: -12px;">Abdallh Azmi</h1>
+<h3 style="text-align:center;">Web Developer</h3>
+</div>
+</div>
 </section>
+<!-- End Team Section -->
 
-  <section>
-  <form action="/">
-    <label for="name">Name</label>
-    <input type="text" id="name">
-    <label for="email">Email</label>
-    <input type="email" id="email">
-    <label for="message">Message</label>
-    <textarea name="message" rows="8" cols="80" id="message">Enter your message here please...</textarea>
+  <section class="contact_us">
+  <h2>Contact Us</h2>
+  <form action="#">
+    <div class="info">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+    </div>
+    <div class="info">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+    </div>
+    <div class="message">
+      <label for="message">Message</label>
+      <textarea placeholder="your message goes here" name="message" rows="8" cols="80" id="message" required></textarea>
+    </div>
+    <input class="submit" type="submit">
+
+
+
   </form>
+  <!-- Start Footer Section -->
 </section>
     <footer>
         <p>
-            Made By &#10084;
+          Made With <span>&#10084;</span>
         </p>
     </footer>
+      <!--End Footer Section -->
 </body>
 </html>
