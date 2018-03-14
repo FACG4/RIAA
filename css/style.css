@@ -1,12 +1,82 @@
 body{
 margin:0;
-pandding:0;
+padding:0;
 font-family:  "Gill Sans",Arial, sans-serif;
+font-family: 'Oswald', sans-serif;
 
 }
+
+/* Header section */
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('../img/598.jpg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin: 200px 0 0 30%;
+}
+
+h1 {
+text-align: center;
+font-family: 'Oswald', sans-serif;
+color: aliceblue;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#67e2a9,#0be881);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+a:link, 
+a:visited {
+    color: #813f70;
+    text-decoration: none;
+}
+a:hover, 
+a:active {
+    color: #e7dce4;
+   
+}
+ul li {
+    display: inline;
+    margin-right: 200px;
+    font-size: 2em;
+}
+
+
+
+/* end of header section */
+
+/* Foteer section */
+span {
+    color: red;
+    font-size: 1.4em;
+}
+footer p {
+    color: #fff;
+    font-size: 1.4em;
+}
+footer {
+    background: rgb(34, 34, 34);
+}
+/* end Foteer */
 .about h2,p{
-  color: #color: #00ff00;
+  color:  #00ff00;
   text-align: center;
+  padding: 50px 0;
 }
 .about h2{
   font-style: italic;
