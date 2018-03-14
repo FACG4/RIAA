@@ -32,5 +32,56 @@ font-size: 160%;
 }
 
 .about p {
-  border: 1px solid #000;
+border: 1px solid #000;
+}
+.team {
+display: flex;
+flex-direction: row;
+width: 90%;
+margin: 0 ;
+margin-left: 10%;
+}
+.img {
+width: 300px;
+height: 300px;
+padding: 5px;
+border-radius: 200px;
+background: rgba(255, 255, 255, .4);
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.team .israa {
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.team .razan {
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.team .ahmad {
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.team .abdallah {
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.abdallah .img {
+transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 600px){
+  .team  {
+  display: inline-block;
+  max-width: 600px;
+  margin: auto;
+}
+}
+.team {
+  font-family:'purisa';
+  font-size: 18px;
+  font-weight: bold;
+}
+.team .h3{
+  margin: 0,0,0,0;
 }
