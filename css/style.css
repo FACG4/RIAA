@@ -19,7 +19,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('../img/598.jpg') ;
+    background-image:/* linear-gradient(rgba(250, 34, 176, 0.33),rgba(114, 255, 102, 0.7)) ,*/ url('../img/598.jpg') ;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -33,12 +33,11 @@ header {
 header h1 {
 text-align: center;
 font-family: 'Oswald', sans-serif;
-color: aliceblue;
-}
-nav {
+color:rgb(162, 10, 60);
+}nav {
     position: absolute;
     bottom: 0;
-    background: linear-gradient(#67e2a9,#0be881);
+    background-color: rgb(235, 99, 188);
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -50,7 +49,7 @@ ul {
 }
 a:link,
 a:visited {
-    color: #813f70;
+    color: #06053e;
     text-decoration: none;
 }
 a:hover,
@@ -169,18 +168,13 @@ transform: rotate(90deg);
 }
 }
 
-}
+
 
 
 
 
 /* contact us */
-.contact_us {
-  width: 95%;
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: rgb(189, 189, 189, 0.3);
-}
+
 .contact_us input {
   border: 1px solid #CCCCCC ;
 }
@@ -192,21 +186,22 @@ textarea {
   margin-bottom: 10px;
 }
 .contact_us h2 {
-  margin: 20px 15px;
+  margin: 5px 15px;
   margin-bottom: 30px;
 }
 .submit {
-  margin: 5px 15px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+  margin-left: 15px;
   height: 40px;
   width: 120px;
-  font-size: 20px;
-  background-color: rgb(65, 65, 138);
+  font-size: 20px;.
 }
 @media screen and (max-width: 400px) {
 
   .contact_us div {
     width: 95%;
-    margin: 0 auto;
+    margin: 30px auto;
   }
 
   .info *{
@@ -220,9 +215,13 @@ textarea {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 401px) {
   .contact_us {
     padding: 20px;
+    width: 95%;
+    width: 600px;
+    margin: 30px auto;
+    background-color: rgba(189, 189, 189, 0.3);
   }
 
   .contact_us div {
