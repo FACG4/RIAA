@@ -20,7 +20,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image:/* linear-gradient(rgba(250, 34, 176, 0.33),rgba(114, 255, 102, 0.7)) ,*/ url('../img/598.jpg') ;
+    background-image: url('../img/598.jpg') ;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -77,11 +77,10 @@ footer p {
     padding: 30px 0;
 }
 footer {
-    background: rgb(34, 34, 34);
+    background: 	#A52A2A;
 }
 /* end Foteer */
 .about{
-
 background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg);
   background-size: cover;
   text-align: center;
@@ -94,7 +93,7 @@ background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg
 }
 
 .about h2 ,  .team-section .team-h ,.contact_us h2{
-font-family: 'Oswald', sans-serif;
+font-family: 'Oswald';
   font-size: 60px;
 text-align: center;
   line-height: 10px;
@@ -118,7 +117,7 @@ text-align: center;
     padding-top: 0;
   padding-bottom: 0px;
   font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
   color: 		#8B0000;
   text-align: center;
 
@@ -136,7 +135,7 @@ display: flex;
 flex-direction: row;
 width: 90%;
 margin: 0 auto;
-font-family:'purisa';
+/*font-family:'purisa';*/
 font-size: 18px;
 font-weight: bold;
 }
@@ -144,7 +143,7 @@ font-weight: bold;
   font-size: 20px;
   padding: 15px 0;
   text-align:center;
-  margin-bottom: -15px; 
+  margin-bottom: -15px;
   margin-top: -12px;
   color: #97253c;
 }
@@ -213,7 +212,7 @@ textarea {
 }
 
 label,textarea::placeholder {
-  color: #97253c ; 
+  color: #97253c ;
 }
 
 
