@@ -1,5 +1,7 @@
 # RIAA
-Your choice for web development
+[RIAA website!](https://facg4.github.io/RIAA/)
+
+_Your choice for web development_
 ### Why?!
 
 We made this website to identify our team and our services
@@ -14,6 +16,7 @@ with a brief description about us.
 ### How?!
 We spent 2 days learning how to get this site works nicely!
 * We made a wireframe for the site.
+![wireframe](img/wirframe.jpeg)
 * WE divided the website into these sections for each one in the team "each one worked on a different branch with one of the sections below":
  * header
  * nav bar
