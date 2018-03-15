@@ -21,12 +21,37 @@
 }
 /* small tablet to big tablet [from 768px to 1023 */
 @media only screen and (max-width : 1023px) {
-
+    .logo {
+        margin: 200px 0 0 20%;
+    }
+    header h1 {
+        margin-left: 90px;
+    }
 }
 /* small phone to small tablet [ from 481px to 767px] */
 @media only screen and (max-width : 767px) {
-
+    .team  {
+        display: inline-block;
+        max-width: 600px;
+        margin: auto;
+      }
 }
 /* small phon screen [from 0 to 480px] */
 @media only screen and (max-width : 480px){
+    .logo {
+        margin: 200px 0px 0px -7% !important;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 30px !important;
+    }
+    header nav {
+        padding: 10px 0;
+    }
+    nav > ul >li {
+        margin-right: 45px;
+    }
+    .contact_us {
+        width: 400px !important;
+    }
 }
