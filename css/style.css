@@ -20,7 +20,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-image:/* linear-gradient(rgba(250, 34, 176, 0.33),rgba(114, 255, 102, 0.7)) ,*/ url('../img/598.jpg') ;
+    background-image: url('../img/598.jpg') ;
     height: 100vh;
     background-size: cover;
     background-position: center;
