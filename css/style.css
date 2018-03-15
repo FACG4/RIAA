@@ -81,7 +81,12 @@ footer {
 }
 /* end Foteer */
 .about{
+<<<<<<< HEAD
+    height: 100vh;
+  background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg);
+=======
 background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg);
+>>>>>>> 09516ef7865ac11a82e002cf9c3a999719ac4420
   background-size: cover;
   text-align: center;
   }
@@ -112,6 +117,8 @@ text-align: center;
     margin: 0 auto;
    margin-top: 45px ;
 }
+
+
 
 .about p{
     padding-top: 0;
@@ -159,13 +166,6 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   margin-right: 45px;
 }
 
-@media screen and (max-width: 600px){
-  .team  {
-  display: inline-block;
-  max-width: 600px;
-  margin: auto;
-}
-}
 /* contact us */
 .contact_us {
   height: auto;
@@ -192,7 +192,6 @@ textarea {
   width: 120px;
   font-size: 20px;
 }
-@media screen and (max-width: 400px) {
 
   .contact_us div {
     width: 95%;
@@ -209,14 +208,12 @@ textarea {
     width: 100%;
     font-size: 20px;
   }
-}
 
 label,textarea::placeholder {
   color: #97253c ;
 }
 
 
-@media screen and (min-width: 401px) {
   .contact_us {
     padding: 20px;
     width: 95%;
@@ -240,4 +237,3 @@ label,textarea::placeholder {
     width: 100%;
     font-size: 20px;
   }
-}
