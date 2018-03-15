@@ -35,7 +35,9 @@ header h1 {
 text-align: center;
 font-family: 'Oswald', sans-serif;
 color:rgb(162, 10, 60);
-}nav {
+}
+
+nav {
     position: absolute;
     bottom: 0;
     background-color: #ebb4dc;
@@ -81,12 +83,8 @@ footer {
 }
 /* end Foteer */
 .about{
-<<<<<<< HEAD
-    height: 100vh;
+  height: 100vh;
   background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg);
-=======
-background-image: linear-gradient(#ffe4c480,	#FFF8DC) ,url(../img/background.jpg);
->>>>>>> 09516ef7865ac11a82e002cf9c3a999719ac4420
   background-size: cover;
   text-align: center;
   }
